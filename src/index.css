@@ -1,0 +1,14 @@
+@import "tailwindcss";
+body {
+  /* The primary dark background color */
+  background-color: #0D1117; 
+  
+  /* This creates the two background layers:
+    1. A faint radial gradient for the "glow" effect.
+    2. A repeating linear gradient for the grid pattern.
+  */
+  background-image: 
+    radial-gradient(circle at 50% 0%, hsla(168, 76%, 40%, 0.15) 0%, rgba(13, 17, 23, 0) 40%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03) 1px, transparent 1px, transparent 40px),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03) 1px, transparent 1px, transparent 40px);
+}
