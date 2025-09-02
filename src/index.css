@@ -1,4 +1,7 @@
 @import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
 body {
   /* The primary dark background color */
   background-color: #0D1117; 

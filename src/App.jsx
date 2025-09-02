@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Perks from './components/Perks';
 import HowItWorks from './components/HowItWorks';
 import Timeline from './components/Timeline';
+import TextVelocity from './components/TextVelocity';
 import WaitlistForm from './components/WaitlistForm';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Hero />
         <Perks />
+        <TextVelocity />
         <HowItWorks />
         <Timeline />
         <WaitlistForm />
