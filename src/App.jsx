@@ -6,6 +6,7 @@ import HowItWorks from './components/HowItWorks';
 import Timeline from './components/Timeline';
 import TextVelocity from './components/TextVelocity';
 import WaitlistForm from './components/WaitlistForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <HowItWorks />
         <Timeline />
         <WaitlistForm />
+        <Footer />
       </main>
     </div>
   );
